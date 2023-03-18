@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 
-    FILE *pF = fopen("C:\\poem.txt", "r");  // r = read
+    FILE *pF = fopen("C:\\files\\poem.txt", "r");  // r = read
     char buffer[255];
 
     if(pF == NULL ){
